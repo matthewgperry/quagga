@@ -1,0 +1,152 @@
+units:
+  kx: cx + 0.75
+  ky: cy + 0.75
+points:
+  key:
+    padding: cy
+    footprints:
+      choc:
+        type: choc
+        nets:
+          from: =column_net
+          to: GND
+        params:
+          keycaps: true
+          reverse: true
+  zones:
+    matrix:
+      rows:
+        bottom.padding: ky
+        home.padding: ky
+        top.padding: ky 
+      columns:
+        pinky:
+          origin: [0, -20]
+          spread: kx
+          rows:
+            top:
+              bind: [2, 1, 0, 2]
+              column_net: P5
+            home:
+              bind: [0, 1, 0, 2]
+              column_net: P6
+            bottom:
+              bind: [0, 1, 2, 2]
+              column_net: P7
+        ring:
+          stagger: 0.48ky
+          spread: kx
+          rows:
+            top:
+              bind: [2, 1, 0, 2]
+              column_net: P0
+            home:
+              bind: [0, 1, 0, 2]
+              column_net: P3
+            bottom:
+              bind: [0, 1, 2, 2]
+              column_net: P4
+        middle:
+          spread: kx
+          stagger: 0.25ky
+          rows:
+            top:
+              bind: [2, 1, 0, 2]
+              column_net: P18
+            home:
+              bind: [0, 1, 0, 2]
+              column_net: P19
+            bottom:
+              bind: [0, 1, 2, 2]
+              column_net: P1
+        index:
+          spread: kx
+          stagger: -0.5ky
+          rows:
+            top:
+              bind: [2, 1, 0, 2]
+              column_net: P16
+            home:
+              bind: [0, 1, 0, 2]
+              column_net: P14
+            bottom:
+              bind: [0, 1, 2, 2]
+              column_net: P15
+        far:
+          spread: kx
+          stagger: -0.25ky
+          rows:
+            top:
+              bind: [2, 22, 0, 2]
+              column_net: P21
+            home:
+              bind: [2, 22, 0, 2]
+              column_net: P20
+            bottom:
+              bind: [2, 22, 2, 2]
+              column_net: P10
+    thumb:
+      anchor:
+        ref: matrix_far_bottom
+        shift: [0.16kx, -1.4ky]
+        rotate: 80
+      rows:
+        right:
+          shift: [-1, -4]
+          rotate: 78
+          bind: [0, 0, 0, 0]
+          column_net: P8
+        left:
+          column_net: P9
+outlines:
+  exports:
+    raw:
+      - type: keys
+        side: left
+        size: [1kx, 1ky]
+    first:
+      - type: outline
+        name: raw
+        fillet: 3
+    second:
+      - type: outline
+        name: first
+        fillet: 2
+    third:
+      - type: outline
+        name: second
+        fillet: 1
+    cutout:
+      - type: outline
+        name: third
+        fillet: 0.5
+    keycap_outlines:
+      - type: keys
+        side: left
+        size: [1cx - 0.5, 1cy - 0.5]
+        bound: false
+pcbs:
+  quagga:
+    outlines:
+      quagga:
+        outline: cutout
+    footprints:
+      promicro:
+        type: promicro
+        anchor:
+          ref: matrix_far_top
+          shift: [20, -7]
+          rotate: -90
+        params:
+          orientation: down
+      trrs:
+        type: trrs
+        nets:
+          A: GND
+          B: GND
+          C: P2
+          D: VCC
+        anchor:
+          ref: matrix_far_bottom
+          rotate: -90
+          shift: [31.5, 0]

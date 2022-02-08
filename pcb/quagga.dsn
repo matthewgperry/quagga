@@ -1,0 +1,732 @@
+(pcb /home/matt/Projects/keyboard/quagga/pcb/quagga.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(6.0.1)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  105201 -81861.4  105533 -81917.7  105856 -82010.9  106167 -82139.6
+            106461 -82302.3  106735 -82497  106986 -82721.2  107210 -82972
+            107405 -83246.4  107568 -83540.8  107697 -83851.7  107790 -84174.9
+            107846 -84506.6  107865 -84842.5  107865 -87717.5  107884 -88053.4
+            107940 -88385.1  108033 -88708.3  108162 -89019.2  108325 -89313.6
+            108520 -89588  108744 -89838.8  108995 -90063  109269 -90257.7
+            109563 -90420.4  109874 -90549.1  110197 -90642.3  110529 -90698.6
+            110865 -90717.5  123615 -90717.5  123951 -90736.4  124283 -90792.7
+            124606 -90885.9  124917 -91014.6  125211 -91177.3  125485 -91372
+            125736 -91596.2  125960 -91847  126155 -92121.4  126318 -92415.8
+            126447 -92726.7  126540 -93049.9  126596 -93381.6  126615 -93717.5
+            126615 -94155  126634 -94350.1  126691 -94537.7  126784 -94710.6
+            126908 -94862.1  127059 -94986.5  127232 -95078.9  127420 -95135.8
+            127615 -95155  142659 -95134.4  142995 -95153.3  143326 -95209.6
+            143650 -95302.7  143960 -95431.5  144255 -95594.2  144529 -95788.9
+            144780 -96013.1  145004 -96263.9  145199 -96538.3  145362 -96832.7
+            145490 -97143.6  145583 -97466.8  145640 -97798.5  145659 -98134.4
+            145662 -112814  145681 -113150  145737 -113481  145830 -113805
+            145959 -114115  146122 -114410  146316 -114684  146541 -114935
+            146792 -115159  147066 -115354  147360 -115517  147671 -115645
+            147994 -115738  148326 -115795  148662 -115814  165735 -115814
+            165910 -115884  166066 -115990  166196 -116127  166295 -116287
+            166357 -116465  166381 -116652  166365 -116840  166370 -158750
+            166326 -159111  166247 -159467  166133 -159813  165986 -160146
+            165808 -160463  165599 -160761  165363 -161038  165100 -161290
+            148590 -176530  148287 -176749  147962 -176934  147619 -177083
+            147263 -177195  146896 -177268  146524 -177302  146150 -177296
+            145779 -177250  145415 -177165  112395 -168910  112078 -168770
+            111777 -168598  111496 -168394  111238 -168162  111006 -167904
+            110802 -167623  110630 -167322  110490 -167005  104865 -144968
+            104865 -142092  104846 -141757  104790 -141425  104697 -141102
+            104568 -140791  104405 -140496  104210 -140222  103986 -139971
+            103735 -139747  103461 -139552  103167 -139390  102856 -139261
+            102533 -139168  102201 -139111  101865 -139092  92115 -139092
+            91779.1 -139111  91447.4 -139168  91124.2 -139261  90813.3 -139390
+            90518.9 -139552  90244.5 -139747  89993.7 -139971  89769.5 -140222
+            89574.8 -140496  89412.1 -140791  89283.4 -141102  89190.2 -141425
+            89133.9 -141757  89115 -142092  89115 -142530  89095.8 -142725
+            89038.9 -142913  88946.5 -143086  88822.1 -143237  88670.6 -143361
+            88497.7 -143454  88310.1 -143511  88115 -143530  73365 -143530
+            73029.1 -143549  72697.4 -143605  72374.2 -143698  72063.3 -143827
+            71768.9 -143990  71494.5 -144185  71243.7 -144409  71019.5 -144660
+            70824.8 -144934  70662.1 -145228  70533.4 -145539  70440.2 -145862
+            70383.9 -146194  70365 -146530  70365 -149050  70346.1 -149386
+            70289.8 -149718  70196.6 -150041  70067.9 -150352  69905.2 -150646
+            69710.5 -150920  69486.3 -151171  69235.5 -151395  68961.1 -151590
+            68666.7 -151753  68355.8 -151882  68032.6 -151975  67700.9 -152031
+            67365 -152050  51615 -152050  51279.1 -152031  50947.4 -151975
+            50624.2 -151882  50313.3 -151753  50018.9 -151590  49744.5 -151395
+            49493.7 -151171  49269.5 -150920  49074.8 -150646  48912.1 -150352
+            48783.3 -150041  48690.2 -149718  48633.9 -149386  48615 -149050
+            48615 -97800  48633.9 -97464.1  48690.2 -97132.4  48783.3 -96809.2
+            48912.1 -96498.3  49074.8 -96203.9  49269.5 -95929.5  49493.7 -95678.7
+            49744.5 -95454.5  50018.9 -95259.8  50313.3 -95097.1  50624.2 -94968.4
+            50947.4 -94875.2  51279.1 -94818.9  51615 -94800  64365 -94800
+            64700.9 -94781.1  65032.6 -94724.8  65355.8 -94631.6  65666.7 -94502.9
+            65961.1 -94340.2  66235.5 -94145.5  66486.3 -93921.3  66710.5 -93670.5
+            66905.2 -93396.1  67067.9 -93101.7  67196.6 -92790.8  67289.8 -92467.6
+            67346.1 -92135.9  67365 -91800  67365 -89280  67383.9 -88944.1
+            67440.2 -88612.4  67533.4 -88289.2  67662.1 -87978.3  67824.8 -87683.9
+            68019.5 -87409.5  68243.7 -87158.7  68494.5 -86934.5  68768.9 -86739.8
+            69063.3 -86577.1  69374.2 -86448.4  69697.4 -86355.2  70029.1 -86298.9
+            70365 -86280  83115 -86280  83450.9 -86261.1  83782.6 -86204.8
+            84105.8 -86111.6  84416.7 -85982.9  84711.1 -85820.2  84985.5 -85625.5
+            85236.3 -85401.3  85460.5 -85150.5  85655.2 -84876.1  85817.9 -84581.7
+            85946.6 -84270.8  86039.8 -83947.6  86096.1 -83615.9  86115 -83280
+            86115 -82842.5  86134.2 -82647.4  86191.1 -82459.8  86283.5 -82286.9
+            86407.9 -82135.4  86559.4 -82011  86732.3 -81918.6  86919.9 -81861.7
+            87115 -81842.5  104865 -81842.5  105201 -81861.4)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component PG1350
+      (place S17 122555.000000 -160020.000000 front -10.000000)
+    )
+    (component PG1350::1
+      (place S1 59990.000000 -141175.000000 front 0.000000)
+    )
+    (component PG1350::2
+      (place S7 97490.000000 -128217.500000 front 0.000000)
+    )
+    (component PG1350::3
+      (place S3 59990.000000 -105675.000000 front 0.000000)
+    )
+    (component PG1350::4
+      (place S14 134990.000000 -123780.000000 front 0.000000)
+    )
+    (component PG1350::5
+      (place S6 78740.000000 -97155.000000 front 0.000000)
+    )
+    (component PG1350::6
+      (place S9 97490.000000 -92717.500000 front 0.000000)
+    )
+    (component PG1350::7
+      (place S2 59990.000000 -123425.000000 front 0.000000)
+    )
+    (component PG1350::8
+      (place S16 142240.000000 -165735.000000 front -22.000000)
+    )
+    (component PG1350::9
+      (place S12 116240.000000 -101592.500000 front 0.000000)
+    )
+    (component PG1350::10
+      (place S15 134990.000000 -106030.000000 front 0.000000)
+    )
+    (component PG1350::11
+      (place S8 97490.000000 -110467.500000 front 0.000000)
+    )
+    (component PG1350::12
+      (place S4 78740.000000 -132655.000000 front 0.000000)
+    )
+    (component "TRRS-PJ-320A-dual"
+      (place REF** 166452.500000 -157875.000000 front -90.000000 (PN "TRRS-PJ-320A-dual"))
+    )
+    (component PG1350::13
+      (place S13 134990.000000 -141530.000000 front 0.000000)
+    )
+    (component PG1350::14
+      (place S10 116240.000000 -137092.500000 front 0.000000)
+    )
+    (component ProMicro
+      (place MCU1 156845.000000 -133985.000000 front -90.000000)
+    )
+    (component PG1350::15
+      (place S5 78740.000000 -114905.000000 front 0.000000)
+    )
+    (component PG1350::16
+      (place S11 116240.000000 -119342.500000 front 0.000000)
+    )
+  )
+  (library
+    (image PG1350
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (pin Round[A]Pad_2032_um (rotate 280) 1 -5000 3800)
+      (pin Round[A]Pad_2032_um (rotate 280) 1@1 5000 3800)
+      (pin Round[A]Pad_2032_um (rotate 280) 2 0 5900)
+      (pin Round[A]Pad_2032_um (rotate 280) 2@1 0 5900)
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+    )
+    (image PG1350::1
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (pin Round[A]Pad_2032_um 1 5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 -5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+    )
+    (image PG1350::2
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (pin Round[A]Pad_2032_um 1 -5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+    )
+    (image PG1350::3
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (pin Round[A]Pad_2032_um 1 -5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+    )
+    (image PG1350::4
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (pin Round[A]Pad_2032_um 1 -5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+    )
+    (image PG1350::5
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (pin Round[A]Pad_2032_um 1 -5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+    )
+    (image PG1350::6
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (pin Round[A]Pad_2032_um 1 -5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+    )
+    (image PG1350::7
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (pin Round[A]Pad_2032_um 1 5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 -5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+    )
+    (image PG1350::8
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (pin Round[A]Pad_2032_um (rotate 202) 1 -5000 3800)
+      (pin Round[A]Pad_2032_um (rotate 202) 1@1 5000 3800)
+      (pin Round[A]Pad_2032_um (rotate 202) 2 0 5900)
+      (pin Round[A]Pad_2032_um (rotate 202) 2@1 0 5900)
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+    )
+    (image PG1350::9
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (pin Round[A]Pad_2032_um 1 5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 -5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+    )
+    (image PG1350::10
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (pin Round[A]Pad_2032_um 1 -5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+    )
+    (image PG1350::11
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (pin Round[A]Pad_2032_um 1 -5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+    )
+    (image PG1350::12
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (pin Round[A]Pad_2032_um 1 -5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+    )
+    (image "TRRS-PJ-320A-dual"
+      (outline (path signal 150  500 2000  -5100 2000))
+      (outline (path signal 150  750 -12100  -5350 -12100))
+      (outline (path signal 150  750 0  -5350 0))
+      (outline (path signal 150  500 0  500 2000))
+      (outline (path signal 150  750 0  750 -12100))
+      (outline (path signal 150  -5100 0  -5100 2000))
+      (outline (path signal 150  -5350 0  -5350 -12100))
+      (pin Oval[A]Pad_1600x2200_um 1 -4600 -11300)
+      (pin Oval[A]Pad_1600x2200_um 2 0 -10200)
+      (pin Oval[A]Pad_1600x2200_um 3 0 -6200)
+      (pin Oval[A]Pad_1600x2200_um 4 0 -3200)
+      (keepout "" (circle F.Cu 1500 -2300 -8600))
+      (keepout "" (circle B.Cu 1500 -2300 -8600))
+      (keepout "" (circle F.Cu 1500 -2300 -1600))
+      (keepout "" (circle B.Cu 1500 -2300 -1600))
+    )
+    (image PG1350::13
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (pin Round[A]Pad_2032_um 1 5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 -5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+    )
+    (image PG1350::14
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (pin Round[A]Pad_2032_um 1 5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 -5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+    )
+    (image ProMicro
+      (outline (path signal 150  15240 -8890  15240 8890))
+      (outline (path signal 150  -17780 -8890  15240 -8890))
+      (outline (path signal 150  15240 8890  -17780 8890))
+      (outline (path signal 150  -15240 -6350  -15240 -8890))
+      (outline (path signal 150  -12700 -6350  -12700 -8890))
+      (outline (path signal 150  -17780 8890  -17780 -8890))
+      (outline (path signal 150  -15240 -6350  -12700 -6350))
+      (outline (path signal 150  -19304 -3810  -19304 3810))
+      (outline (path signal 150  -14224 -3810  -19304 -3810))
+      (outline (path signal 150  -19304 3810  -14224 3810))
+      (outline (path signal 150  -14224 3810  -14224 -3810))
+      (pin Rect[A]Pad_1752.6x1752.6_um 1 -13970 -7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 2 -11430 -7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 3 -8890 -7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 4 -6350 -7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 5 -3810 -7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 6 -1270 -7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 7 1270 -7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 8 3810 -7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 9 6350 -7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 10 8890 -7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 11 11430 -7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 12 13970 -7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 13 -13970 7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 14 -11430 7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 15 -8890 7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 16 -6350 7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 17 -3810 7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 18 -1270 7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 19 1270 7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 20 3810 7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 21 6350 7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 22 8890 7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 23 11430 7620)
+      (pin Round[A]Pad_1752.6_um (rotate 90) 24 13970 7620)
+    )
+    (image PG1350::15
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (pin Round[A]Pad_2032_um 1 5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 -5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+    )
+    (image PG1350::16
+      (outline (path signal 150  -9000 -8500  -9000 8500))
+      (outline (path signal 150  7000 7000  7000 6000))
+      (outline (path signal 150  -9000 8500  9000 8500))
+      (outline (path signal 150  -6000 7000  -7000 7000))
+      (outline (path signal 150  7000 -6000  7000 -7000))
+      (outline (path signal 150  6000 -7000  7000 -7000))
+      (outline (path signal 150  9000 -8500  -9000 -8500))
+      (outline (path signal 150  -7000 -7000  -6000 -7000))
+      (outline (path signal 150  -7000 6000  -7000 7000))
+      (outline (path signal 150  9000 8500  9000 -8500))
+      (outline (path signal 150  -7000 -7000  -7000 -6000))
+      (outline (path signal 150  7000 7000  6000 7000))
+      (pin Round[A]Pad_2032_um 1 -5000 3800)
+      (pin Round[A]Pad_2032_um 1@1 5000 3800)
+      (pin Round[A]Pad_2032_um 2 0 5900)
+      (pin Round[A]Pad_2032_um 2@1 0 5900)
+      (keepout "" (circle F.Cu 3429))
+      (keepout "" (circle B.Cu 3429))
+      (keepout "" (circle F.Cu 1701.8 5500 0))
+      (keepout "" (circle B.Cu 1701.8 5500 0))
+      (keepout "" (circle F.Cu 1701.8 -5500 0))
+      (keepout "" (circle B.Cu 1701.8 -5500 0))
+    )
+    (padstack Round[A]Pad_1752.6_um
+      (shape (circle F.Cu 1752.6))
+      (shape (circle B.Cu 1752.6))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2032_um
+      (shape (circle F.Cu 2032))
+      (shape (circle B.Cu 2032))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1600x2200_um
+      (shape (path F.Cu 1600  0 -300  0 300))
+      (shape (path B.Cu 1600  0 -300  0 300))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1752.6x1752.6_um
+      (shape (rect F.Cu -876.3 -876.3 876.3 876.3))
+      (shape (rect B.Cu -876.3 -876.3 876.3 876.3))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net P7
+      (pins S1-1 S1-1@1 MCU1-22)
+    )
+    (net GND
+      (pins S17-2 S17-2@1 S1-2 S1-2@1 S7-2 S7-2@1 S3-2 S3-2@1 S14-2 S14-2@1 S6-2 S6-2@1
+        S9-2 S9-2@1 S2-2 S2-2@1 S16-2 S16-2@1 S12-2 S12-2@1 S15-2 S15-2@1 S8-2 S8-2@1
+        S4-2 S4-2@1 REF**-1 REF**-2 S13-2 S13-2@1 S10-2 S10-2@1 MCU1-2 MCU1-15 MCU1-16
+        S5-2 S5-2@1 S11-2 S11-2@1)
+    )
+    (net P6
+      (pins S2-1 S2-1@1 MCU1-21)
+    )
+    (net P5
+      (pins S3-1 S3-1@1 MCU1-20)
+    )
+    (net P4
+      (pins S4-1 S4-1@1 MCU1-19)
+    )
+    (net P3
+      (pins MCU1-18 S5-1 S5-1@1)
+    )
+    (net P0
+      (pins S6-1 S6-1@1 MCU1-14)
+    )
+    (net P1
+      (pins S7-1 S7-1@1 MCU1-13)
+    )
+    (net P19
+      (pins S8-1 S8-1@1 MCU1-7)
+    )
+    (net P18
+      (pins S9-1 S9-1@1 MCU1-8)
+    )
+    (net P15
+      (pins S10-1 S10-1@1 MCU1-9)
+    )
+    (net P14
+      (pins MCU1-10 S11-1 S11-1@1)
+    )
+    (net P16
+      (pins S12-1 S12-1@1 MCU1-11)
+    )
+    (net P10
+      (pins S13-1 S13-1@1 MCU1-12)
+    )
+    (net P20
+      (pins S14-1 S14-1@1 MCU1-6)
+    )
+    (net P21
+      (pins S15-1 S15-1@1 MCU1-5)
+    )
+    (net P8
+      (pins S16-1 S16-1@1 MCU1-23)
+    )
+    (net P9
+      (pins S17-1 S17-1@1 MCU1-24)
+    )
+    (net RAW
+      (pins MCU1-1)
+    )
+    (net RST
+      (pins MCU1-3)
+    )
+    (net VCC
+      (pins REF**-4 MCU1-4)
+    )
+    (net P2
+      (pins REF**-3 MCU1-17)
+    )
+    (class kicad_default
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
